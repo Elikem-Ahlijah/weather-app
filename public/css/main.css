@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'montserrat', sans-serif;
+  margin: 0%;
+  height: 100vh;
+}
+
+body > div{
+  margin-left:10% ;
+  margin-right:10% ;
+  margin-top:2em ;
+  margin-bottom:2em ;
+}
+
+#content {
+  height: 75vh;
+}
+
+#display{
+  margin-top: 5%;
+  background-color: #0a5080;
+  padding: 10px 10px;
+  border-radius: 5px 5px;
+}
+
+
+
+
+#label{
+  color:rgb(29, 28, 28);
+  
+}
+
+#loGo{
+  /* margin-bottom: 2rem; */
+  color: #FFF;
+  font-weight: 2em;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  padding: 15px 15px 15px;
+  background-color: #f8611b;
+  max-height: 12vh;
+  min-height: 12vh;
+  margin: 0 0;
+  width: 100%;
+}
+
+#logo1{
+  font-size: 2em;
+}
+
+#search-container{
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.search-box {
+  
+  max-width: 35vw;
+  height: 60vh;
+  padding: 5px 5px;
+  margin-bottom: 0.5rem;
+  border: none;
+  outline: none;
+  background-color: #fdf5f5e8;
+  height: auto;
+  font-size: 1em;
+  
+  
+  
+
+}
+
+.Button{
+   max-height: 5vh; 
+   min-height: 5vh;
+   margin-bottom: 0.5;
+   /* margin-left: 2rem; */
+   width: auto;
+   color: #0e0d0d;
+   font-size: 1em;
+   font-weight: 1.5em;
+   border-radius: 5px 5px 5px 5px;
+   padding: .5em .5em .5em 1em;
+   
+}
+
+
+main {
+  flex: 1 1 100%;
+  padding: 25px 25px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+  background-position: top center;
+  background-color: #2397e4;
+
+}
+
+#footer{
+  max-height: 25vh;
+  min-height: 25vh;
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  
+}
+
+.location .city {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.location .date {
+  color: #FFF;
+  font-size: 16px;
+}
+
+.current .temp {
+  color: #FFF;
+  font-size: 50px;
+  font-weight: 500;
+  margin: 30px 0px;
+  text-shadow: 2px 5px rgba(0, 0, 0, 0.6);
+}
+
+.current .temp span {
+  font-weight: 500;
+}
+
+.current .weather {
+  color: #FFF;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0px 3px rgba(0, 0, 0, 0.4);
+}
+
+.current .hi-low {
+  color: #FFF;
+  font-size: 24px;
+  font-weight: 500;
+  text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}

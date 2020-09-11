@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="Description" content="A simple and easy to use weather application, to access location and basic weather informaton"> 
+  <meta name="theme-color" content="#585858">
+  <title>Weather app</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <link rel="manifest" href="manifest.json">
+  
+  <!-- ios support -->
+  <link rel="apple-touch-startup-image" href="/img/icons/icon-128x128.png">
+  <link rel="apple-touch-icon" href="">
+
+</head>
+<body>
+  
+    <div id="loGo">
+          <h1 id="logo1">WEATHAPP</h1>
+      </div>
+      
+    
+    <main id="content">
+      <!-- search bar -->
+      <div id="search-container">
+        <label>
+          <p id="label">Enter desired city:</p><br>
+        <input type="text" autocomplete="off" class="search-box" placeholder="Search for a city..." />
+        </label>
+        <input type="submit" value="Submit" class="Button"/>
+    </div>
+      <div id="display">
+        <section class="location">
+          <div class="city"></div>
+        </section>
+        <div class="current">
+          <div class="temp"><span></span></div>
+          <div class="weather"></div>
+        
+      </div>
+    </div>
+    </main>
+
+    <footer id="footer">
+
+    </footer>
+  
+  <script src="/js/app.js"></script>
+  <script src="/js/main.js"></script>
+</body>
+</html>
